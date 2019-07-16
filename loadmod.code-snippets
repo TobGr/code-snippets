@@ -1,0 +1,16 @@
+{
+	"loadmod": {
+		"prefix": "loadmod",
+		"body": [
+			"\\$modules  = JModuleHelper: :getModules('$1');",
+			"\\$document = JFactory: :getDocument();",
+			"\\$attribs  = array();",
+			"\\$attribs['style'] = 'xhtml';",
+			"",
+			"foreach (\\$modules as \\$mod) {",
+			"	echo JModuleHelper: :renderModule(\\$mod, \\$attribs);",
+			"}"
+		],
+		"description": "load joomla module"
+	}
+}

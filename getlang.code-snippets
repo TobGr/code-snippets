@@ -1,0 +1,10 @@
+{
+	"getlang": {
+		"prefix": "getlang",
+		"body": [
+			"\\$lang_tag = JFactory::getLanguage();",
+			"\\$lang = \\$lang_tag->getTag();"
+		],
+		"description": "get joomla language tag"
+	}
+}
