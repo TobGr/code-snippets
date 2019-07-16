@@ -1,0 +1,17 @@
+{
+	"dbjoomla": {
+		"prefix": "dbjoomla",
+		"body": [
+			"\\$db = JFactory::getDbo();",
+			"",
+			"\\$sql_code = 'DELETE FROM `#__table` WHERE `id` = 123';",
+			"",
+			"\\$db->setQuery(\\$sql_code);",
+			"\\$db->execute();",
+			"",
+			"\\$results = \\$db->loadObjectList();",
+			""
+		],
+		"description": "connect to current joomla db"
+	}
+}
