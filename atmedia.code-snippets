@@ -1,0 +1,11 @@
+{
+	"atmedia": {
+		"prefix": "atmedia",
+		"body": [
+			"@media only screen and (max-width: ) {",
+			"	$0",
+			"}"
+		],
+		"description": "@media"
+	}
+}

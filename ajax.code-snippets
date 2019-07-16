@@ -1,0 +1,16 @@
+{
+	"ajax post": {
+		"prefix": "ajax",
+		"body": [
+			"\\$.ajax({",
+			"	type: 'post',",
+			"	url: '/file.php',",
+			"	data: { name: value },",
+			"	success: function(response) {",
+			"		console.log(response);",
+			"	}",
+			"});"
+		],
+		"description": "ajax post"
+	}
+}

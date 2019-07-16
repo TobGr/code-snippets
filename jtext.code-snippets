@@ -1,0 +1,9 @@
+{
+	"jtext": {
+		"prefix": "jtext",
+		"body": [
+			"echo JText::_('$0');"
+		],
+		"description": "joomla language override"
+	}
+}

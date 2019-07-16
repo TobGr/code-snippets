@@ -1,0 +1,11 @@
+{
+	"pre": {
+		"prefix": "pre",
+		"body": [
+			"echo '<pre>';"
+			"print_r($0);"
+			"echo '</pre>';"
+		],
+		"description": "array format"
+	}
+}

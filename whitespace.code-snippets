@@ -1,0 +1,9 @@
+{
+	"whitespace": {
+		"prefix": "whitespace",
+		"body": [
+			"&nbsp;"
+		],
+		"description": "html whitespace"
+	}
+}

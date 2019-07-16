@@ -1,0 +1,14 @@
+{
+	"PHPdebug": {
+		"prefix": "debug",
+		"body": [
+		"if (\\$_SERVER['REMOTE_ADDR']==''){"
+		"	echo '<pre>';"
+		"	print_r($0);"
+		"	echo '</pre>';"
+		"	die;"
+		"}"
+		],
+		"description": "ip debug function"
+	}
+}
