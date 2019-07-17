@@ -1,0 +1,11 @@
+{
+	"js-timeout": {
+		"prefix": "timeout",
+		"body": [
+			"setTimeout(function(){",
+			"	$0",
+			"}, 500);"
+		],
+		"description": "javascript timeout"
+	}
+}
