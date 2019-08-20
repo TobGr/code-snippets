@@ -1,0 +1,9 @@
+{
+	"PHP joomla base url": {
+		"prefix": "jBaseUrl",
+		"body": [
+			"JUri::base()"
+		],
+		"description": "PHP joomla base url"
+	}
+}
