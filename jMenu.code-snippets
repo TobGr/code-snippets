@@ -1,0 +1,11 @@
+{
+	"PHP joomla active menu": {
+		"prefix": "jMenu",
+		"body": [
+			"\\$app = JFactory: :getApplication();",
+			"\\$menu = \\$app->getMenu()->getActive();",
+			""
+		],
+		"description": "PHP joomla active menu"
+	}
+}
