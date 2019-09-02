@@ -1,0 +1,9 @@
+{
+	"css !important": {
+		"prefix": "!important",
+		"body": [
+			"!important;"
+		],
+		"description": "css !important"
+	}
+}
