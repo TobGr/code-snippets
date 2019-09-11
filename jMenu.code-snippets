@@ -2,7 +2,7 @@
 	"PHP joomla active menu": {
 		"prefix": "jMenu",
 		"body": [
-			"\\$app = JFactory: :getApplication();",
+			"\\$app = JFactory::getApplication();",
 			"\\$menu = \\$app->getMenu()->getActive();",
 			""
 		],
