@@ -1,0 +1,10 @@
+{
+	"PHP joomla user": {
+		"prefix": "jUser",
+		"body": [
+			"\\$user = JFactory::getUser();",
+			""
+		],
+		"description": "PHP joomla user"
+	}
+}
