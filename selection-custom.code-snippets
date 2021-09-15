@@ -1,0 +1,17 @@
+{
+	"selection custom": {
+		"prefix": "selectionCSS",
+		"body": [
+			"/* custom selection */",
+			"::-moz-selection { ",
+			"	color: white;",
+			"	background: #733bac;",
+			"}",
+			"::selection {",
+			"	color: white;",
+			"	background: #733bac;",
+			"}"			
+		],
+		"description": "CSS custom selection"
+	}
+}

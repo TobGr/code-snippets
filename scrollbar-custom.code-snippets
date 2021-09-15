@@ -1,0 +1,25 @@
+{
+	"scrollbar custom": {
+		"prefix": "scrollbarCSS",
+		"body": [
+			"/* custom scrollbar */",
+			"/* width */",
+			"::-webkit-scrollbar {",
+			"	width: 12px;",
+			"}",
+			"/* bg */",
+			"::-webkit-scrollbar-track {",
+			"	background: transparent;",
+			"}",
+			"/* btn */",
+			"::-webkit-scrollbar-thumb {",
+			"	background: #733bac;",
+			"}",
+			"/* btn:hover */",
+			"::-webkit-scrollbar-thumb:hover {",
+			"	background: #733bac;",
+			"}"
+		],
+		"description": "CSS custom scrollbar"
+	}
+}
