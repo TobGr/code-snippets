@@ -18,6 +18,11 @@
 			"/* btn:hover */",
 			"::-webkit-scrollbar-thumb:hover {",
 			"	background: #733bac;",
+			"}",
+			"/* firefox-only */",
+			"html, body {",
+			"	scrollbar-color: #733bac white;",
+			"	/* scrollbar-width: thin; */",
 			"}"
 		],
 		"description": "CSS custom scrollbar"
