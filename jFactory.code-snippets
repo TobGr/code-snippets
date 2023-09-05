@@ -1,0 +1,15 @@
+{
+	"jFactory": {
+		"prefix": "jFactory load files",
+		"body": [
+			"use Joomla\\CMS\\Factory;",
+			"use Joomla\\CMS\\HTML\\HTMLHelper;",
+			"use Joomla\\CMS\\Language\\Text;",
+			"use Joomla\\CMS\\Uri\\Uri;",
+			"",
+			"\\$app = Factory::getApplication();",
+			"$0"
+		],
+		"description": "load joomla factory files"
+	}
+}
