@@ -1,0 +1,21 @@
+{
+	"css grab cursor": {
+		"prefix": "grab-cursor",
+		"body": [
+			".element {",
+			"	cursor: pointer;",
+			"	cursor: grab;",
+			"	cursor: -moz-grab;",
+			"	cursor: -webkit-grab;",
+			"}",
+			"",
+			".element:active {",
+			"	cursor: grabbing;",
+			"	cursor: -moz-grabbing;",
+			"	cursor: -webkit-grabbing;",
+			"}",
+			"$0"
+		],
+		"description": "css grab cursor"
+	}
+}
