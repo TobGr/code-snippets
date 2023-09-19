@@ -1,0 +1,26 @@
+{
+	"css underline animation": {
+		"prefix": "underline-animation-css",
+		"body": [
+			"/* underline animation */"
+			"a,",
+			"a:hover {",
+			"	display: inline-block;",
+			"	text-decoration: none;",
+			"}",
+			"a:after {",
+			"	content: "";",
+			"	display: block;",
+			"	border-bottom: 2px solid black;",
+			"	transform: scaleX(0);",
+			"	transform-origin: center; /* left / center / right */",
+			"	transition: transform 0.25s ease-in-out;",
+			"}",
+			"a:hover:after {",
+			"	transform: scaleX(1);",
+			"}",
+			"$0"
+		],
+		"description": "css underline animation"
+	}
+}
