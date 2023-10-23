@@ -1,0 +1,9 @@
+{
+	"jRoute": {
+		"prefix": "JRoute",
+		"body": [
+			"JRoute::_($0);"
+		],
+		"description": "joomla url"
+	}
+}
