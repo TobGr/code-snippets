@@ -1,0 +1,10 @@
+{
+	"hyphens": {
+		"prefix": "hyphens",
+		"body": [
+			"hyphens: auto;",
+			"-webkit-hyphens: auto;"
+		],
+		"description": "css hyphens"
+	}
+}
